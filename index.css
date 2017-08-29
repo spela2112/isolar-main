@@ -1,0 +1,25 @@
+body {
+	font-family: Century Gothic;
+}
+
+.jumbotron {
+	max-width: 100%;
+	min-height: 600px; 
+	background-image: url(topimage.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.toptext {
+	margin-right:40px;
+	margin-left: 40px;
+	margin-top: 80px;
+	margin-bottom: 120px;
+}
+.our_work {
+	margin-right:20px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
