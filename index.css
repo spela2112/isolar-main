@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
 	max-width: 100%;
-	min-height: 600px; 
+	min-height: 620px; 
 	background-image: url(topimage.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -18,6 +18,12 @@ body {
 	margin-bottom: 120px;
 }
 .our_work {
+	margin-right:20px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about_us {
 	margin-right:20px;
 	margin-left: 20px;
 	margin-top: 50px;
