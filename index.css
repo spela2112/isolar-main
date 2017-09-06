@@ -2,13 +2,34 @@ body {
 	font-family: Century Gothic;
 }
 
+
 .jumbotron {
 	max-width: 100%;
-	min-height: 600px; 
+	min-height: 620px; 
 	background-image: url(topimage.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+}
 
+.jumbotron{
+	padding: 0px;
+}
+
+.animated {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.jumbotron .bg-overlay {
+    height: 620px;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    bottom: 0;
+}
+.jumbotron:hover .bg-overlay {
+    height: 100%;
+    background: rgba(0,0,0,0.5);
 }
 
 .toptext {
@@ -16,10 +37,54 @@ body {
 	margin-left: 40px;
 	margin-top: 80px;
 	margin-bottom: 120px;
+	color: white;
 }
+
+.formtext {
+	color: white;
+}
+
 .our_work {
 	margin-right:20px;
 	margin-left: 20px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+
+.about_us {
+	margin-right:20px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.first_profile {
+	margin-right:10px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.second_profile {
+	margin-right:10px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.third_profile {
+	margin-right:20px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.carousel-inner {
+	height: 600px;
+	min-width: 100%;
+	
+}
+
+
+
+
+
