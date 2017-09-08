@@ -87,8 +87,13 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
 .about_us h1{
 	margin-bottom: 20px
+}
+
+.rounded-circle:hover {
+	opacity: 0.7;
 }
 
 .first_profile {
@@ -97,6 +102,7 @@ body {
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
+
 .second_profile {
 	margin-right:10px;
 	margin-left: 10px;
@@ -124,6 +130,11 @@ body {
 }
 .contact p{
 	margin-bottom: 40px
+}
+
+iframe {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .footer {
