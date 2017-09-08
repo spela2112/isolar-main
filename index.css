@@ -11,10 +11,11 @@ body {
 
 .jumbotron {
 	max-width: 100%;
-	min-height: 620px; 
+	height: 620px; 
 	background-image: url(topimage.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	position: relative;
 }
 
 .jumbotron{
@@ -30,11 +31,11 @@ body {
 }
 .jumbotron .bg-overlay {
     background: rgba(0,0,0,0);
-    position: static;
+    position: relative;
     height: 100%;
     width: 100%;
-    padding-bottom: 26.5%;
 }
+
 .jumbotron:hover .bg-overlay {
     height: 100%;
     background: rgba(0,0,0,0.5);
@@ -43,7 +44,7 @@ body {
 .toptext {
 	margin-right:40px;
 	margin-left: 40px;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-bottom: 120px;
 	color: white;
 	padding-top: 140px;
@@ -69,6 +70,12 @@ body {
 	margin-bottom: 50px;
 }
 
+.carousel-inner{
+	position:relative;
+	width: 100%;
+	overflow: hidden;
+	height: 620px;
+}
 
 .about_us {
 	margin-right:20px;
@@ -95,13 +102,6 @@ body {
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
-
-.carousel-slide {
-    max-height: 400px;
-    overflow: hidden;
-	
-}
-
 
 
 
