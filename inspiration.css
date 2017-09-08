@@ -1,0 +1,19 @@
+body {
+	font-family: Century Gothic;
+	font-weight: 200;
+}
+.nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 99999;
+}
+.inspiration{
+	padding-top: 50px;
+	background-color: #F2F2E8;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+}
