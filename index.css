@@ -33,7 +33,7 @@ body {
     position: static;
     height: 100%;
     width: 100%;
-    padding-bottom: 16.5%;
+    padding-bottom: 26.5%;
 }
 .jumbotron:hover .bg-overlay {
     height: 100%;
@@ -46,7 +46,16 @@ body {
 	margin-top: 30px;
 	margin-bottom: 120px;
 	color: white;
-	padding-top: 115px;
+	padding-top: 140px;
+}
+
+.toptext h1 {
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+.toptext h3 {
+    padding-top: 40px;
 }
 
 .formtext {
@@ -56,7 +65,7 @@ body {
 .our_work {
 	margin-right:20px;
 	margin-left: 20px;
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
@@ -87,9 +96,9 @@ body {
 	margin-bottom: 50px;
 }
 
-.carousel-inner {
-	height: 600px;
-	min-width: 100%;
+.carousel-slide {
+    height: 500px;
+    overflow: hidden;
 	
 }
 
