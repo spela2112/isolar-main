@@ -1,6 +1,7 @@
 body {
 	font-family: Century Gothic;
 	font-weight: 200;
+	color: #36454F;
 }
 .nav {
     overflow: hidden;
@@ -9,6 +10,16 @@ body {
     top: 0; 
     width: 100%;
     z-index: 99999;
+}
+
+a {
+	color: #536872;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: 500;
+}
+a:hover {
+	opacity: 0.5;
 }
 
 .jumbotron {
@@ -40,7 +51,7 @@ body {
 
 .jumbotron:hover .bg-overlay {
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
 }
 
 .toptext {
@@ -62,6 +73,15 @@ body {
 
 .formtext {
 	color: white;
+}
+.btn {
+	background-color: #62A3D5;
+	border-color: transparent;
+}
+
+.btn:hover {
+	background-color: #395680;
+	border-color: transparent;
 }
 
 .our_work {
@@ -152,10 +172,11 @@ iframe {
     text-decoration: none;
     border-radius: 50%;
     float: right;
+    color: #536872;
 
 }
 .fa:hover {
-    opacity: 0.2;
+    opacity: 0.5;
 }
 p{
 	margin-top: 20px;
