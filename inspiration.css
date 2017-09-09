@@ -12,19 +12,35 @@ body {
     z-index: 99999;
 }
 
-a {
-	color: #536872;
-	text-decoration: none;
-	background-color: transparent;
-}
-a:hover {
-	opacity: 0.5;
-}
-
 .inspiration{
 	padding-top: 50px;
 	background-color: #F2F2E8;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #F2F2E8;
+}
+
+button {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    border-radius: 45px;
+    background-color: #536872;
+    color: white;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
 }
