@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    $(".btn").click(function(){
+        alert("Thank you, your enquiry has been submitted. We will be in touch shortly.");
+    });
+});
+
+
+$(document).ready(function(){
 	$('.first_profile').hide(function(){
     });
  });
