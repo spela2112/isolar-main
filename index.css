@@ -200,13 +200,14 @@ iframe {
 
 .footer {
 	padding-top: 10px;
-	padding-bottom: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-bottom: 10px;
 
 }
 .fa {
     padding: 40px;
+    padding-bottom: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
