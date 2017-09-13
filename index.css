@@ -74,12 +74,6 @@ a:hover {
 
 
 
-.toptext h1 {
-	font-size: 100px;
-	text-align: center;
-	display: inline-block;
-}
-
 .toptext h3 {
     padding-top: 40px;
 }
@@ -230,9 +224,17 @@ p{
 @media (max-width: 800px) {
     .font1 {
         font-size: 70px
-    }
+	}
+}
 
 @media (max-width: 800px) {
     .font2 {
         font-size: 70px
+	}
+}
+
+@media (max-width: 800px) {
+    h3 {
+        font-size: 20px
     }
+}
