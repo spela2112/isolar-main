@@ -72,15 +72,7 @@ a:hover {
     font-size: 140px;
 }
 
-@media (max-width: 800px) {
-    .font1 {
-        font-size: 70px
-    }
 
-@media (max-width: 800px) {
-    .font2 {
-        font-size: 70px
-    }
 
 .toptext h1 {
 	font-size: 100px;
@@ -92,7 +84,7 @@ a:hover {
     padding-top: 40px;
 }
 
-.formtext {
+.formtext label p {
 	color: white;
 }
 .btn {
@@ -234,3 +226,13 @@ iframe {
 p{
 	margin-top: 20px;
 }
+
+@media (max-width: 800px) {
+    .font1 {
+        font-size: 70px
+    }
+
+@media (max-width: 800px) {
+    .font2 {
+        font-size: 70px
+    }
